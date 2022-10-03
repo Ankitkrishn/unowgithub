@@ -1,0 +1,361 @@
+<html><head>
+    <meta content="text/html; charset=utf-8">
+    <title>Github Dorks</title>
+    <meta name="author" content="Koanti" />
+    <meta name="referrer" content="never">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="SHORTCUT ICON" href="https://w7.pngwing.com/pngs/646/324/png-transparent-github-computer-icons-github-logo-monochrome-head.png">
+    <link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet" type="text/css">
+    <script src="github.js"></script>
+    <style>
+    body {
+      background-image: url(b2.jpg);
+      background-repeat: no-repeat;
+      background-size:cover;
+        color:rgb(255, 255, 255);
+        font-size: 16pt;
+        font-family:"Merienda One";
+        font-weight: bold;
+        padding: 0px;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+    
+    .row {
+      padding: 30px;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    canvas {
+      height: 100vh;
+      z-index: -10;
+      position: fixed;
+      top: 0px;
+    }
+    
+    a {
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    }
+    a:hover {
+    color:#d04834;
+    }
+    hr {border: 2;width: 50%;}
+    
+    input{
+        overflow: hidden;
+        color:#FFF;
+            background: transparent;
+        border-radius:5px;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border: 1px solid;
+        font-family:Arial,sans-serif;
+        font-size:16px;
+        font-weight:700;
+        height:32px;
+        padding:4px 16px;
+    }
+    </style>
+    </head><body>
+    <script>
+        function check_submit(e) {
+            if (e && e.keyCode == 13 && e.target.type != 'textarea') {
+                e.preventDefault();
+                e.defaultPrevented = true;
+    
+                if($('#tool-form').valid() == true) {
+                    if ($('#security-check').is(':visible') == true) {
+                        document.getElementById('tool-form').submit();
+                }
+            }
+        }
+        }
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');    
+    
+      ga('create', 'UA-100953906-1', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
+    <div id="particles-js">
+    <div style="font-family: Merienda One;text-align: center;font-size: 25pt;text-shadow: 0 0 6px #4a2aa8, 0 0 5px #4e1e9c, 0 0 5px #1f10a7;color: #FFF">Github-Dork<br></div><br/>
+    <div style="font-family: Merienda One;text-align: center;font-size: 16pt;text-shadow: 0 0 6px #aeda11, 0 0 5px #ad7c10, 0 0 5px #9dd123;color: #FFF">by Mr.k0anti<br></div><br/>
+    <div onkeypress="check_submit(event)">
+            
+    <form novalidate="novalidate" onsubmit="return false" id="tool-form" role="form" method="GET" action="/" target="response-frame">
+    <input name="p" value="tool" type="hidden">
+    <input name="t" value="10" type="hidden">
+    <input name="act" value="exec" type="hidden">
+    <script>
+    document.getElementById('tool-form').setAttribute('onsubmit', 'return false');
+    check_submit = function(event) {};
+    </script>
+    <div style="text-align: center;"><b>Target Domain :) type org:target or "site"</b><br><br>
+      <div style="text-align: center;"><b>Happy Hunting</b><br><br>
+    
+    <input id="target" name="target" placeholder='"site" or org:target' autofocus="" type="text"><br/></div>
+    
+    <div class="row">
+      <div class="column"><div style="text-align: center;">
+        <div style="display: inline-block; text-align: left;">
+ &#128269; <a href="#" onclick="shodan_it(16)">dotfiles</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(17)">.env file</a><br/>
+     &#128269; <a href="#" onclick="shodan_it(18)">Secret_key=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(19)">User_secret=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(20)">/django/next/admin/dashboard</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(21)">admin_passwd=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(22)">Jenkins</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(23)">oauth</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(24)">authoriztion</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(25)">password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(26)">pwd</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(27)">ftp</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(28)">JDBC</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(29)">Authorization: Bearer</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(30)">admin_passwd=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(1)">api_key</a><br/>  
+  &#128269; <a href="#" onclick="shodan_it(183)">ldap_password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(184)">ldap_username</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(5)">Ldap</a><br/> 
+    &#128269; <a href="#" onclick="shodan_it(6)">aws_access_key_id</a><br/>
+ &#128269; <a href="#" onclick="shodan_it(32)">ssh2_auth_password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(33)">connectionstring</a><br/> 
+    &#128269; <a href="#" onclick="shodan_it(34)">security_credentials</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(35)">send_key-keys</a><br/>  
+    &#128269; <a href="#" onclick="shodan_it(36)">user</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(37)">token</a><br/>  
+    &#128269; <a href="#" onclick="shodan_it(38)">access_key</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(39)">secret_access_key</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(7)">secret</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(8)">bash_history</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(9)">bashrc%20password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(10)">beanstalkd</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(11)">client secre</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(12)">composer</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(13)">config</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(14)">credentials</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(15)">DB_PASSWORD</a><br/>
+     &#128269; <a href="#" onclick="shodan_it(49)">security_credentials
+</a><br/>
+ &#128269; <a href="#" onclick="shodan_it(4)">authoriztion</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(167)">consumer_key</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(168)">credentials</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(169)">database_password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(170)">db_password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(171)">db_username</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(172)">dbpasswd</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(173)">dbpassword</a><br/>
+
+ &#128269; <a href="#" onclick="shodan_it(31)">SecretAccessKey</a><br/>
+   
+    &#128269; <a href="#" onclick="shodan_it(40)">bucket_password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(41)">redis_password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(42)">root_password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(43)">login-singin</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(44)">passkey-passkeys</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(45)">pass</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(46)">app_AWS_SECRET_ACCESS_KEY AWS_SECRET_ACCESS_KEY</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(47)">admin</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(48)">log</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(128)">filename:vim_settings.xml</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(129)">filename:sftp.json path:.vscode</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(130)">filename:secrets.yml password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(50)">remove password</a><br/>
+ &#128269; <a href="#" onclick="shodan_it(101)">filename:shadow</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(103)">filename:wp-config.php</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(104)">filename:credentials</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(105)">filename:id_rsa</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(106)">filename:id_dsa</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(107)">filename:.sqlite</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(108)">filename:secret_token.rb</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(109)">filename:settings.py</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(110)">filename:credentials.xml</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(111)">filename:sftp-config.json password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(112)">filename:.s3cfg</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(113)">filename:config.php dbpasswd</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(114)">filename:.bashrc password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(115)">filename:.esmtprc password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(116)">filename:.netrc password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(117)">filename:_netrc password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(118)">filename:.env MAIL_HOST=smtp.gmail.com</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(119)">filename:prod.exs NOT prod.secret.exs</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(120)">filename:.npmrc _auth</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(121)">filename:WebServers.xml</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(122)">filename:sftp-config.json</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(123)">filename:.esmtprc password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(124)">filename:passwd path:etc</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(125)">filename:prod.secret.exs</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(126)">filename:proftpdpasswd</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(127)">filename:travis.yml</a><br/>
+  
+    &#128269; <a href="#" onclick="shodan_it(131)">extension:sql mysql dump</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(132)">extension:sql mysql dump password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(133)">extension:pem private</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(134)">extension:ppk private</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(135)">gh_token</a><br/>
+   
+    &#128269; <a href="#" onclick="shodan_it(146)">.mlab.com password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(147)">app_key</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(148)">access_token</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(149)">api.googlemaps AIza</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(150)">appkeysecret</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(2)">app_AWS_SECRET_ACCESS_KEY </a><br/>
+    &#128269; <a href="#" onclick="shodan_it(3)">app_secret</a><br/> 
+   
+    
+    
+    
+    </div></div></div>
+    <div class="column"><div style="text-align: center;">
+        <div style="display: inline-block; text-align: left;">
+ &#128269; <a href="#" onclick="shodan_it(136)">github_key</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(137)">github_token</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(138)">gitlab</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(139)">gmail_password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(140)">gmail_user</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(141)">herokuapp</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(142)">internal</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(143)">irc_pass</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(144)">ftp</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(145)">firebase</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(51)">root</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(52)">trash</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(53)">FTP_PORT</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(54)">DB_DATABASE=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(55)">DB_HOST=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(56)">DB_PORT=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(57)">DB_PASSWORD=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(58)">DB_PW=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(59)">DB_USER=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(60)">"bucket_name"</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(61)">GITHUB_TOKEN=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(62)">PATH=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(63)">FTP_PW=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(64)">FTP_LOGIN=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(65)">CODECLIMATE_REPO_TOKEN=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(66)">DOCKER_PASSWORD=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(67)">NPM_TOKEN=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(68)">GH_TOKEN=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(69)">ACCOUNT_SID=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(70)">API_KEY_SID=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(71)">API_KEY_SECRET=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(72)">GITHUB_KEY=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(73)">FIREBASE_API_TOKEN=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(74)">USERNAME=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(75)">GITHUB_API_KEY=</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(86)">aws_access_key</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(87)">aws_secret_key</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(88)">S3_BUCKET</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(89)">S3_ACCESS_KEY_ID</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(90)">S3_SECRET_ACCESS_KEY</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(91)">S3_ENDPOINT</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(92)">AWS_ACCESS_KEY_ID</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(93)">list_aws_accounts</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(94)">filename:database</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(95)">filename:secrets.yml</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(96)">filename:passwd</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(97)">filename:LocalSettings.php</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(98)">filename:config.php</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(99)">filename:config.inc.php</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(100)">filename:configuration.php</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(76)">.mlab.com password</a><br/> 
+    &#128269; <a href="#" onclick="shodan_it(77)">mysql</a><br/> 
+    &#128269; <a href="#" onclick="shodan_it(78)">npmrc%20_auth</a><br/> 
+    &#128269; <a href="#" onclick="shodan_it(79)">passwd</a><br/> 
+    &#128269; <a href="#" onclick="shodan_it(80)">passkey</a><br/> 
+    &#128269; <a href="#" onclick="shodan_it(81)">rds.amazonaws.com password</a><br/> 
+    &#128269; <a href="#" onclick="shodan_it(82)">s3cfg</a><br/> 
+ &#128269; <a href="#" onclick="shodan_it(85)">filename:.bash_history</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(83)">filename:.bash_profile aws</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(84)">filename:.bashrc mailchimp</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(101)">git-credentials</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(102)">github_token</a><br/> 
+    &#128269; <a href="#" onclick="shodan_it(112)">databases password</a><br/> 
+&#128269; <a href="#" onclick="shodan_it(151)">application_key</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(152)">appsecret</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(153)">appspot</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(154)">auth</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(155)">auth_token</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(156)">authorizationToken</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(157)">bashrc password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(158)">bucket_password</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(159)">api_secret</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(160)">apidocs</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(161)">apikey</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(162)">client_secret</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(163)">cloudfront</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(164)">codecov_token</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(165)">conn.login</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(166)">connectingstring</a><br/>
+
+    &#128269; <a href="#" onclick="shodan_it(174)">dbuser</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(175)">dot-files</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(176)">dotfiles</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(177)">encryption_key</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(178)">fabricApiSecret</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(179)">fb_secret</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(180)">JEKULL_GITHUB_TOKEN</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(181)">key</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(182)">keypassword</a><br/>
+  
+    &#128269; <a href="#" onclick="shodan_it(185)">login</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(186)">mailchimp</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(187)">mailgun</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(188)">master_key</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(189)">mydotfiles</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(190)">mysql</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(191)">node_env</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(192)">npmrc _auth</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(193)">oauth_token</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(194)">pass</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(195)">passwd</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(196)">passwords</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(197)">pem private</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(198)">prod</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(199)">private_key</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(200)">preprod</a><br/>
+    &#128269; <a href="#" onclick="shodan_it(201)">pwds</a><br/>
+    
+    
+    </div>
+      </div>
+      </div>
+    </div>
+    
+    </div></div></form>
+    <div style="clear: both;"></div>
+    <hr>
+    
+    <script src="jquery1.js"></script><script src="jquery.js"></script>
+    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
+    
+    <script  src="bg.js"></script>
+    
+    <br/><div style="font-family: Merienda One;text-align: center;padding: 7px 0;font-size:20px;">by Mr.Koanti; thank to faisalahmed google dorks</div></div>
+    </body></html> 
